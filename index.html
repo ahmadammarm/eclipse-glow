@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Icon -->
+    <link rel="icon" href="img/logo-removebg-preview.png" />
+
+    <!-- Swiper JS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
+    <title>PKM - Eclipse Glow Hair</title>
+  </head>
+  <body id="top">
+    <!-- Loader Start -->
+    <div class="loader" id="loadingScreen">
+      <div></div>
+    </div>
+    <!-- Loader End -->
+    <header data-header>
+      <div class="navbar">
+        <div class="container">
+          <div class="box-navbar">
+            <div class="logo">
+              <a
+                href="https://shopee.co.id/eclipseglow.id?utm_campaign=-&utm_content=product&utm_medium=affiliates&utm_source=an_11380400208&utm_term=9u46sgx5ahwu&is_from_login=true"
+                target="_blank"
+                ><img src="img/logo-fix.png" alt="logo"
+              /></a>
+            </div>
+            <ul class="menu" id="menu-list">
+              <li><a href="#">BERANDA</a></li>
+              <li><a href="#about">TENTANG</a></li>
+              <li><a href="#product">PRODUK</a></li>
+              <li><a href="#testimoni">TESTIMONI</a></li>
+              <li><a href="#team">TIM</a></li>
+              <li><a href="#contact">HUBUNGI</a></li>
+            </ul>
+            <i class="fa-solid fa-bars menu-bar" id="menu-icon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="container">
+          <div class="box-hero">
+            <div class="box">
+              <h1>Eclipse Glow Hair</h1>
+              <p>
+                Shampo Kutu Alami dengan Kombinasi Terbaik Sirih Merah dan
+                Khasiat Menyegarkan Ampas Kopi
+              </p>
+              <button id="aboutButton">Selengkapnya</button>
+            </div>
+            <div class="box">
+              <img src="img/mockup-1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- About Us Section -->
+    <section id="about" class="about">
+      <h2 data-aos="fade-up" data-aos-duration="2000">TENTANG KAMI</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img
+            src="img/mockup-2.jpg"
+            alt="About Us"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          />
+        </div>
+        <div class="content">
+          <h3 data-aos="fade-up" data-aos-duration="2000">
+            Kenapa harus memilih kami?
+          </h3>
+          <p data-aos="fade-up" data-aos-duration="2000">
+            Eclipse Glow Hair merupakan shampo kutu alami yang berbahan dasar
+            Sirih Merah dan Ampas Kopi, bahan-bahan ini dipercaya secara
+            tradisional karena kemampuannya dalam menghilangkan kutu rambut dan
+            mencegah rambut rontok. Kandungan senyawa flavonoid dan alkaloid
+            yang terdapat dalam daun sirih merah berperan penting dalam
+            menghambat pertumbuhan kutu pada rambut Anda.
+          </p>
+          <p data-aos="fade-up" data-aos-duration="2000">
+            Selain itu, Eclipse Glow Hair juga diperkaya dengan kandungan
+            menthol, yang memberikan sensasi dingin yang menyegarkan, membantu
+            kulit kepala menjadi lebih rileks dan nyaman.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Us Section End -->
+
+    <div class="services">
+      <div class="container">
+        <div class="box-services" data-aos="fade-up" data-aos-duration="2000">
+          <div class="box">
+            <i class="fa-solid fa-coins"></i>
+            <h4>Harga Terjangkau</h4>
+            <p>
+              Dapatkan produk berkualitas dengan harga terjangkau. Jangan lewatkan kesempatan ini!
+            </p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-pump-medical"></i>
+            <h4>Bahan Higienis</h4>
+            <p>
+              Kami menjamin produk kami terbuat dari bahan-bahan higienis berkualitas tinggi. 
+            </p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-star"></i>
+            <h4>Terekomendasi dan Terpercaya</h4>
+            <p>
+              Kami berkomitmen untuk memberikan pelayanan terbaik dan terpercaya untuk kepuasan Anda.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="rgb(8, 8, 8)"
+        fill-opacity="1"
+        d="M0,160L48,165.3C96,171,192,181,288,154.7C384,128,480,64,576,58.7C672,53,768,107,864,149.3C960,192,1056,224,1152,218.7C1248,213,1344,171,1392,149.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- Product Session Start -->
+    <section
+      id="product"
+      class="menu"
+      data-aos="fade-down"
+      data-aos-duration="2000"
+    >
+      <h2 data-aos="fade-up" data-aos-duration="2000">PRODUK KAMI</h2>
+      <div class="row">
+        <div class="menu-card">
+          <img
+            class="menu-card-img"
+            src="img/mockup-1-edit.jpg"
+            alt="americano"
+            class="menu-card-img"
+            data-aos="flip-right"
+            data-aos-duration="3000"
+          />
+          <h3
+            class="menu-card-title"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            - Eclipse Glow -
+          </h3>
+          <p
+            class="menu-card-price"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            IDR 48K
+          </p>
+        </div>
+        <div class="menu-card">
+          <img
+            class="menu-card-img"
+            src="img//mockup-2-edit.jpg"
+            alt="espresso"
+            class="menu-card-img"
+            data-aos="flip-right"
+            data-aos-duration="3000"
+          />
+          <h3
+            class="menu-card-title"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            - Eclipse Glow -
+          </h3>
+          <p
+            class="menu-card-price"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            IDR 48K
+          </p>
+        </div>
+        <div class="menu-card">
+          <img
+            class="menu-card-img"
+            src="img/mockup-3-edit.jpg"
+            alt="blackcoffee"
+            class="menu-card-img"
+            data-aos="flip-right"
+            data-aos-duration="3000"
+          />
+          <h3
+            class="menu-card-title"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            - Eclipse Glow -
+          </h3>
+          <p
+            class="menu-card-price"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            IDR 48K
+          </p>
+        </div>
+        <div class="menu-card">
+          <img
+            class="menu-card-img"
+            src="img/mockup-4-edit.jpg"
+            alt="latte"
+            class="menu-card-img"
+            data-aos="flip-right"
+            data-aos-duration="3000"
+          />
+          <h3
+            class="menu-card-title"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            - Eclipse Glow -
+          </h3>
+          <p
+            class="menu-card-price"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            IDR 48K
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Product Pop Up Start -->
+    <div id="popup">
+      <div id="popup-content">
+        <span id="close-popup">&times;</span>
+        <div class="popup-card">
+          <h3 id="popup-title">Produk Kami</h3>
+          <p>
+            Eclipse Glow Hair - Sampo Alami Anti Kutu dan Rambut Rontok dari Daun Sirih Merah dan Ampas Kopi
+          </p>
+          <a id="shopee-link" href="https://shopee.co.id/eclipseglow.id?utm_campaign=-&utm_content=product&utm_medium=affiliates&utm_source=an_11380400208&utm_term=9vodtdt8jrab" target="_blank">Beli Sekarang</a>
+        </div>
+      </div>
+    </div>
+    <!-- Product Pop Up End -->
+    <!-- Product Session End -->
+    <!-- Testimonial Session Start -->
+    <div class="testimoni-container swiper" id="testimoni">
+      <div class="testimoni-title" data-aos="fade-up" data-aos-duration="2000">
+        <h2>TESTIMONI</h2>
+      </div>
+      <div
+        class="testimoni-content"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img
+                  src="img/GettyImages-1495234870.webp"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <h2 class="name">Tom Holland</h2>
+              <p class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                excepturi.
+              </p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img
+                  src="img/GettyImages-1495234870.webp"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <h2 class="name">Tom Holland</h2>
+              <p class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                excepturi.
+              </p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img
+                  src="img/GettyImages-1495234870.webp"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <h2 class="name">Tom Holland</h2>
+              <p class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                excepturi.
+              </p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img
+                  src="img/GettyImages-1495234870.webp"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <h2 class="name">Tom Holland</h2>
+              <p class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                excepturi.
+              </p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img
+                  src="img/GettyImages-1495234870.webp"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <h2 class="name">Tom Holland</h2>
+              <p class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                excepturi.
+              </p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img
+                  src="img/GettyImages-1495234870.webp"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <h2 class="name">Tom Holland</h2>
+              <p class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                excepturi.
+              </p>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+              <span class="overlay"></span>
+              <div class="card-image">
+                <img
+                  src="img/GettyImages-1495234870.webp"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <h2 class="name">Tom Holland</h2>
+              <p class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+                excepturi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="swiper-button-next swiper-navBtn"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      ></div>
+      <div
+        class="swiper-button-prev swiper-navBtn"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      ></div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="rgb(8, 8, 8)"
+        fill-opacity="1"
+        d="M0,256L24,261.3C48,267,96,277,144,245.3C192,213,240,139,288,128C336,117,384,171,432,186.7C480,203,528,181,576,165.3C624,149,672,139,720,138.7C768,139,816,149,864,176C912,203,960,245,1008,234.7C1056,224,1104,160,1152,144C1200,128,1248,160,1296,165.3C1344,171,1392,149,1416,138.7L1440,128L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- Testimonial Session End -->
+
+    <!-- Team Session Start -->
+    <div class="team-section" id="team">
+      <div class="team-container">
+        <div class="team-title">
+          <div
+            class="team-title-inner"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
+            <h2>TIM KAMI</h2>
+          </div>
+        </div>
+        <!-- Team Item Start -->
+        <div class="team-row">
+          <div class="team-item" data-aos="flip-right" data-aos-duration="2000">
+            <div class="team-item-inner" id="ketua">
+              <img src="img/sari_dewi.png" alt="" />
+              <h4>Sari Dewi Andayani</h4>
+              <p>Ketua Tim</p>
+              <div class="social-links">
+                <a href="https://twitter.com/bluwbearr" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/dwiadyn/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team-item" data-aos="flip-right" data-aos-duration="2000">
+            <div class="team-item-inner">
+              <img src="img/bu_tika.png" alt="" />
+              <h4>Tika Dwi Tama S.K.M., M.Epid.</h4>
+              <p>Dosen Pembimbing</p>
+              <div class="social-links" id="dospem">
+                <a href="https://twitter.com/bluwbearr" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/dwiadyn/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Team Item End -->
+      </div>
+    </div>
+    <div class="team-section-2">
+      <div class="team-container-2">
+        <!-- Team Item Start -->
+        <div class="team-row-2">
+          <div
+            class="team-item-2"
+            data-aos="flip-right"
+            data-aos-duration="2000"
+          >
+            <div class="team-item-inner-2">
+              <img src="img/Nikmah.png" alt="" />
+              <h4>Hidayatun Nikmah</h4>
+              <p>Anggota 1</p>
+              <div class="social-links-2">
+                <a href="https://www.instagram.com/nkmhhdy" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Team Item End -->
+          <!-- Team Item Start -->
+          <div
+            class="team-item-2"
+            data-aos="flip-right"
+            data-aos-duration="2000"
+          >
+            <div class="team-item-inner-2">
+              <img
+                src="img/Jasmine-fotor-bg-remover-2023090616579.png"
+                alt=""
+              />
+              <h4>RR Jasmine Zhafirah Pribadi</h4>
+              <p>Anggota 2</p>
+              <div class="social-links-2">
+                <a href="https://twitter.com/shadeofmine" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/jasminezhafirah">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Team Item End -->
+          <!-- Team Item Start -->
+          <div
+            class="team-item-2"
+            data-aos="flip-right"
+            data-aos-duration="2000"
+          >
+            <div class="team-item-inner-2">
+              <img
+                src="img/Salsa_Novenia-fotor-bg-remover-20230906165910.png"
+                alt=""
+              />
+              <h4>Salsa Novenia Ramadhany</h4>
+              <p>Anggota 3</p>
+              <div class="social-links-2">
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Team Item End -->
+          <!-- Team Item Start -->
+          <div
+            class="team-item-2"
+            data-aos="flip-right"
+            data-aos-duration="2000"
+          >
+            <div class="team-item-inner-2">
+              <img
+                src="img/Lina_Shobrina-removebg-preview-fotor-bg-remover-2023090617145.png"
+                alt=""
+              />
+              <h4>Lina Shobrina</h4>
+              <p>Anggota 4</p>
+              <div class="social-links-2">
+                <a href="https://www.instagram.com/lina_shbrna" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Team Item End -->
+      </div>
+    </div>
+    <!-- Team Session End -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2 data-aos="fade-up" data-aos-duration="2000">KONTAK KAMI</h2>
+
+      <div class="row" data-aos="fade-up" data-aos-duration="2000">
+        <!-- Map Contact -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.347915854787!2d112.61454607390493!3d-7.962950679357052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788281bdd08839%3A0xc915f268bffa831f!2sUniversitas%20Negeri%20Malang!5e0!3m2!1sen!2sid!4v1694087148677!5m2!1sen!2sid"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <!-- Social Media Contact -->
+        <form>
+          <div class="input-group" id="wa">
+            <i class="fab fa-whatsapp"></i>
+            <a href="https://wa.link/wt6hgi" target="_blank">Call Us on Whats App</a>
+          </div>
+          <div class="input-group" id="ig">
+            <i class="fab fa-instagram"></i>
+            <a href="https://instagram.com/eclipseglow.id" target="_blank">Direct to Instagram</a>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <div class="footer-bottom">
+      <div class="footer-container">
+        <p class="copyright">
+          &copy; 2023
+          <a
+            href="https://instagram.com/eclipseglow.id?igshid=MmU2YjMzNjRlOQ=="
+            class="copyright-link"
+            target="_blank"
+            >eclipseglow.id</a
+          >. All Rights Reserved
+        </p>
+        <p class="copyright">
+          Designed by
+          <a
+            href="https://ahmadammarm.github.io/ammar"
+            class="copyright-link"
+            target="_blank"
+            >ammar</a
+          >.
+        </p>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Go to Top Start -->
+    <a href="#top" class="go-top-btn" data-go-top>
+      <ion-icon name="arrow-up-outline"></ion-icon>
+    </a>
+    <!-- Go to Top End -->
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Ion Icon Link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
