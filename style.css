@@ -32,13 +32,13 @@ body::-webkit-scrollbar {
 
 /* Gaya thumb (bagian yang dapat digerakkan) scrollbar */
 body::-webkit-scrollbar-thumb {
-  background-color: #9b7653;
+  background-color: green;
   border-radius: 6px;
 }
 
 /* Gaya saat thumb dihover */
 body::-webkit-scrollbar-thumb:hover {
-  background-color: #634a32;
+  background-color: rgb(0, 197, 0);
 }
 
 /* Gaya track (area di sekitar thumb) scrollbar */
@@ -74,7 +74,7 @@ header {
 }
 
 .navbar.scrolling-active {
-  background-color: #9b7653;
+  background-color: green;
   padding: 20px 0 20px 0;
 }
 
@@ -112,13 +112,13 @@ header {
 }
 
 .navbar .box-navbar .menu .active a {
-  background-color: #9b7653;
+  background-color: green;
   border-radius: 10px;
   height: 50px;
 }
 
 .navbar .box-navbar .menu li a:hover {
-  background-color: #9b7653;
+  background-color: green;
   transition: all ease 0.5s;
 }
 
@@ -146,7 +146,7 @@ header {
     opacity: 0;
     transform: translateX(50%);
     transition: all 0.3s ease;
-    background-color: #9b7653;
+    background-color: green;
     margin-top: 1rem;
   }
 
@@ -178,7 +178,7 @@ header {
   width: 50px;
   height: 50px;
   border: 5px solid rgb(0, 0, 0);
-  border-top: 5px solid #cc9562;
+  border-top: 5px solid rgb(0, 197, 0);
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
@@ -228,7 +228,7 @@ header {
 .hero .box-hero .box:nth-child(1) button {
   width: 180px;
   height: 50px;
-  background-color: #9b7653;
+  background-color: green;
   font-weight: bold;
   color: #fff;
   border: none;
@@ -243,8 +243,8 @@ header {
 
 .hero .box-hero .box:nth-child(1) button:hover {
   background-color: #fff;
-  color: #9b7653;
-  border: 1px solid #9b7653;
+  color: green;
+  border: 1px solid green;
 }
 
 .hero .box-hero .box:nth-child(2) img {
@@ -310,7 +310,7 @@ header {
   font-size: 3rem;
   margin-bottom: 3rem;
   padding-bottom: 2rem;
-  color: #9b7653;
+  color: green;
 }
 
 .about .row {
@@ -335,7 +335,7 @@ header {
 .about .row .content h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #634a32;
+  color: rgb(0, 184, 0);
   cursor: default;
 }
 
@@ -407,7 +407,7 @@ header {
 .services .box-services .box {
   width: 300px;
   text-align: center;
-  box-shadow: 0 0 10px #9b7653;
+  box-shadow: 0 0 10px green;
   color: #fff;
   padding: 20px; /* Tambahkan nilai padding sesuai preferensi Anda */
   transition: all 0.3s ease;
@@ -417,7 +417,7 @@ header {
 .services .box-services .box i {
   font-size: 40px;
   margin-bottom: 10px;
-  color: #9b7653;
+  color: green;
 }
 
 .services .box-services .box p {
@@ -439,7 +439,7 @@ header {
 
 .copyright-link {
   display: inline-block;
-  color: #9b7653;
+  color: green;
 }
 
 .footer-bottom a {
@@ -448,7 +448,7 @@ header {
 }
 
 .footer-bottom a:hover {
-    color: #634a32;
+    color: rgb(2, 190, 2);
 }
 
 /* Responsive styles */
@@ -463,10 +463,10 @@ header {
   bottom: 20px;
   right: 20px;
   background: #000;
-  color: #9b7653;
+  color: green;
   font-size: 20px;
   padding: 10px;
-  border: 4px solid #9b7653;
+  border: 4px solid green;
   border-radius: 100%;
   opacity: 0;
   visibility: hidden;
@@ -597,7 +597,7 @@ header {
 
 #shopee-link {
   display: inline-block;
-  background-color: #9b7653;
+  background-color: green;
   color: white;
   border: none;
   border-radius: 5px;
@@ -654,7 +654,7 @@ header {
 .testimoni-container .testimoni-title h2 {
   font-size: 3rem;
   padding-bottom: 4rem; /* Mengurangi margin agar tidak terlalu jauh dari konten */
-  color: #9b7653;
+  color: green;
   padding-top: 10rem;
 }
 
@@ -716,11 +716,11 @@ header {
 }
 
 .testimoni-container .card-content .button {
-  border: 1px solid #9b7653;
+  border: 1px solid green;
   font-size: 16px;
   color: #fff;
   padding: 8px 16px;
-  background-color: #9b7653;
+  background-color: green;
   border-radius: 6px;
   margin: 11px;
   cursor: pointer;
@@ -728,10 +728,10 @@ header {
 }
 
 .testimoni-container .card-content .button:hover {
-  color: #9b7653;
+  color: green;
   background-color: #fff;
   border: 1px solid transparent;
-  border-color: #9b7653;
+  border-color: green;
 }
 
 .testimoni-container .image-content .overlay {
@@ -740,7 +740,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: #9b7653;
+  background-color: green;
   border-radius: 25px 25px 0 25px;
 }
 
@@ -752,7 +752,7 @@ header {
   width: 40px;
   right: 0;
   bottom: -40px;
-  background-color: #9b7653;
+  background-color: green;
 }
 
 .testimoni-container .image-content .overlay::after {
@@ -767,7 +767,7 @@ header {
 }
 
 .testimoni-container .swiper-navBtn:hover {
-  color: #9b7653;
+  color: green;
 }
 
 .testimoni-container .swiper-navBtn::before,
