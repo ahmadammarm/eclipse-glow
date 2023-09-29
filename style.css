@@ -498,6 +498,13 @@ header {
   font-size: 3rem;
   padding-top: 4rem;
 }
+
+.menu h3 {
+  text-align: center;
+  color: #25d366;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
 .menu p {
   text-align: center;
   max-width: 30rem;
@@ -520,13 +527,28 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin-top: 5rem;
-  justify-content: center;
+  justify-content: space-between;
   padding-bottom: 4rem;
+}
+
+.menu .row .tutor-card {
+  margin-top: 4rem;
+  margin: auto;
+}
+
+.menu .row .tutor-card p {
+  text-align: left;
+}
+
+.menu .row .menu-card,
+.menu .row .tutor-card {
+  flex: 0 0 50%;
+  max-width: 50%; /* Tambahkan padding */
 }
 
 .menu .row .menu-card {
   text-align: center;
-  padding-bottom: 4rem;
+  margin-top: 4rem;
   font-size: medium;
   transition: 1s;
 }
