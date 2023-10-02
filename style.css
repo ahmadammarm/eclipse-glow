@@ -355,6 +355,22 @@ header {
   color: #fff;
 }
 
+.about-button button {
+  padding: 10px 20px; /* Atur padding agar tombol terlihat lebih besar */
+  font-size: 16px; /* Sesuaikan ukuran font */
+  border: none; /* Hapus border default */
+  background-color: rgb(2, 190, 2); /* Atur warna latar belakang */
+  color: #fff; /* Atur warna teks */
+  border-radius: 5px; /* Atur sudut melengkung */
+  cursor: pointer; /* Ubah kursor saat diarahkan ke tombol */
+  transition: all .3s ease;
+}
+
+.about-button button:hover {
+  background-color: green; /* Atur warna latar belakang saat dihover */
+}
+
+
 @media screen and (max-width: 768px) {
   .about h2 {
     font-size: 2.5rem;
@@ -674,7 +690,6 @@ header {
   justify-content: center;
   align-items: center;
   z-index: 9999;
-  
 }
 
 #popup.active {
@@ -741,6 +756,7 @@ header {
 #shopee-link:hover {
   background-color: green;
 }
+
 
 /* Responsiveness */
 @media (max-width: 768px) {
