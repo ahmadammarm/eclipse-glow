@@ -498,8 +498,8 @@ header {
 	height: 50px;
 	width: 50px;
 	z-index: -1;
-	background-color: #9c9c9c;
-	box-shadow: 0 0 50px rgb(2, 190, 2), 0 0 100px rgb(2, 190, 2), 0 0 150px rgb(2, 190, 2), 0 0 200px rgb(2, 190, 2);
+	background-color: #c7c7c7;
+	box-shadow: 0 0 50px rgba(2, 190, 2, 0.61), 0 0 100px rgba(2, 190, 2, 0.61), 0 0 150px rgba(2, 190, 2, 0.61), 0 0 200px rgba(2, 190, 2, 0.61);
 	animation: animate 10s linear infinite;
 }
 .wrapper span:nth-child(1) {
