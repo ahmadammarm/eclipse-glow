@@ -492,11 +492,81 @@ header {
 
 
 /* Menu Section */
-
+.wrapper span {
+	position: fixed;
+	bottom: -180px;
+	height: 50px;
+	width: 50px;
+	z-index: -1;
+	background-color: #9c9c9c;
+	box-shadow: 0 0 50px rgb(2, 190, 2), 0 0 100px rgb(2, 190, 2), 0 0 150px rgb(2, 190, 2), 0 0 200px rgb(2, 190, 2);
+	animation: animate 10s linear infinite;
+}
+.wrapper span:nth-child(1) {
+	left: 60px;
+	animation-delay: 0.6s;
+}
+.wrapper span:nth-child(2) {
+	left: 10%;
+	animation-delay: 3s;
+	width: 60px;
+	height: 60px;
+}
+.wrapper span:nth-child(3) {
+	left: 20%;
+	animation-delay: 2s;
+}
+.wrapper span:nth-child(4) {
+	left: 30%;
+	animation-delay: 5s;
+	width: 80px;
+	height: 80px;
+}
+.wrapper span:nth-child(5) {
+	left: 40%;
+	animation-delay: 1s;
+}
+.wrapper span:nth-child(6) {
+	left: 50%;
+	animation-delay: 7s;
+}
+.wrapper span:nth-child(7) {
+	left: 60%;
+	animation-delay: 6s;
+	width: 100px;
+	height: 100px;
+}
+.wrapper span:nth-child(8) {
+	left: 70%;
+	animation-delay: 8s;
+}
+.wrapper span:nth-child(9) {
+	left: 80%;
+	animation-delay: 6s;
+	width: 90px;
+	height: 90px;
+}
+.wrapper span:nth-child(10) {
+	left: 90%;
+	animation-delay: 4s;
+}
+@keyframes animate {
+	0% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	80% {
+		opacity: .7;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
 .menu h2 {
   text-align: center;
   font-size: 3rem;
-  padding-top: 4rem;
+  padding-top: 5rem;
 }
 
 .menu h3 {
@@ -534,10 +604,32 @@ header {
 .menu .row .tutor-card {
   margin-top: 4rem;
   margin: auto;
+  text-align: center;
 }
-
+.menu .row .tutor-card h3 {
+  text-align: center;
+  color: rgb(2, 190, 2);
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  font-family: sans-serif;
+  cursor: default;
+  font-weight: 900;
+}
 .menu .row .tutor-card p {
   text-align: left;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+  font-style: italic;
+  font-size: 1rem;
+  cursor: default;
+  border: 1px solid rgb(2, 190, 2);
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.342); /* Add a subtle shadow effect */
+  background-color: #fff;
+
 }
 
 .menu .row .menu-card,
@@ -1185,5 +1277,14 @@ header {
   .menu .row .tutor-card {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+  .menu .row .menu-card {
+    margin-bottom: 4rem;
+  }
+
+  .menu .row .tutor-card {
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+    margin-bottom: 3rem;
   }
 }
