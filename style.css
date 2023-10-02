@@ -463,10 +463,10 @@ header {
   bottom: 20px;
   right: 20px;
   background: #000;
-  color: green;
+  color: rgb(2, 190, 2);
   font-size: 20px;
   padding: 10px;
-  border: 4px solid green;
+  border: 4px solid rgb(2, 190, 2);
   border-radius: 100%;
   opacity: 0;
   visibility: hidden;
@@ -485,8 +485,8 @@ header {
 }
 
 .go-top-btn:hover {
-  border: 4px solid #634a32;
-  color: #634a32;
+  border: 4px solid green;
+  color: green;
 }
 
 
@@ -501,7 +501,7 @@ header {
 
 .menu h3 {
   text-align: center;
-  color: #25d366;
+  color: rgb(2, 190, 2);
   font-size: 2rem;
   margin-bottom: 3rem;
 }
@@ -558,7 +558,7 @@ header {
   width: 50%;
   margin-bottom: 1rem;
   transition: 1s ease all;
-  cursor: pointer;
+  object-fit: cover;
 }
 
 .menu .row .menu-card img:hover {
@@ -598,6 +598,7 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: relative;
   max-width: 90%;
+  transition: all .3s ease;
 }
 
 #close-popup {
@@ -607,6 +608,22 @@ header {
   font-size: 20px;
   cursor: pointer;
 }
+
+.product-button button {
+  padding: 10px 20px; /* Atur padding agar tombol terlihat lebih besar */
+  font-size: 16px; /* Sesuaikan ukuran font */
+  border: none; /* Hapus border default */
+  background-color: rgb(2, 190, 2); /* Atur warna latar belakang */
+  color: #fff; /* Atur warna teks */
+  border-radius: 5px; /* Atur sudut melengkung */
+  cursor: pointer; /* Ubah kursor saat diarahkan ke tombol */
+  transition: all .3s ease;
+}
+
+.product-button button:hover {
+  background-color: green; /* Atur warna latar belakang saat dihover */
+}
+
 
 .popup-card {
   margin-top: 20px;
@@ -619,17 +636,18 @@ header {
 
 #shopee-link {
   display: inline-block;
-  background-color: green;
+  background-color: rgb(2, 190, 2);
   color: white;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
   margin-top: 10px;
   text-decoration: none;
+  transition: all .3s ease;
 }
 
 #shopee-link:hover {
-  background-color: #7e5c3e;
+  background-color: green;
 }
 
 /* Responsiveness */
@@ -1162,5 +1180,10 @@ header {
 
   .contact .row form .input-group a {
     font-size: 20px;
+  }
+  .menu .row .menu-card,
+  .menu .row .tutor-card {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }

@@ -104,7 +104,7 @@ window.addEventListener("scroll", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  const menuCardImgs = document.querySelectorAll(".menu-card-img");
+  const menuCardImgs = document.querySelectorAll(".product-button");
   const popup = document.getElementById("popup");
   const closePopup = document.getElementById("close-popup");
 
