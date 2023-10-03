@@ -753,10 +753,55 @@ header {
   transition: all .3s ease;
 }
 
+.about-popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about-popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+.about-popup-content p {
+  display: inline-block;
+  margin: 0 20px 10px 10px;
+  font-weight: 700;
+  color: green;
+  padding-bottom: 1rem;
+  cursor: default;
+  border: 1px solid rgb(2, 190, 2);
+  padding: 10px;
+}
+
+.about-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.about-close:hover,
+.about-close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
 #shopee-link:hover {
   background-color: green;
 }
-
 
 /* Responsiveness */
 @media (max-width: 768px) {
@@ -1289,6 +1334,10 @@ header {
   .contact .row form .input-group a {
     font-size: 20px;
   }
+  .about-button {
+    display: none;
+  }
+  
   .menu .row .menu-card,
   .menu .row .tutor-card {
     flex: 0 0 100%;

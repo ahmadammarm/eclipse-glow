@@ -4,7 +4,7 @@ const navBar = document.querySelector(".navbar");
 
 let isMenuActive = false; // Track whether menu is active or not
 
-// Scrolling tidak ada ketika loading
+
 // Hide scrollbars
 document.documentElement.style.overflow = "hidden";
 
@@ -34,9 +34,11 @@ window.addEventListener("load", function () {
 menuBar.addEventListener("click", () => {
   if (!isMenuActive) {
     menuNav.classList.add("menu-active");
+    menuNav.style.pointerEvents = "auto"; // Mengaktifkan pointer events
     isMenuActive = true;
   } else {
     menuNav.classList.remove("menu-active");
+    menuNav.style.pointerEvents = "none"; // Menonaktifkan pointer events
     isMenuActive = false;
   }
 });
@@ -50,9 +52,9 @@ window.addEventListener("scroll", () => {
 document.addEventListener("click", (event) => {
   const targetElement = event.target;
 
-  // Periksa apakah elemen yang diklik bukan bagian dari navbar atau menu-bar
   if (!navBar.contains(targetElement) && !menuBar.contains(targetElement)) {
     menuNav.classList.remove("menu-active");
+    menuNav.style.pointerEvents = "none"; // Menonaktifkan pointer events
     isMenuActive = false;
   }
 });
@@ -152,6 +154,16 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 });
+
+function showPopup() {
+  var popup = document.getElementById("about-popup");
+  popup.style.display = "flex";
+}
+
+function closePopup() {
+  var popup = document.getElementById("about-popup");
+  popup.style.display = "none";
+}
 
 
 
