@@ -109,7 +109,6 @@ header {
   text-decoration: none;
   color: #fff;
   padding: 10px 15px 10px 15px;
-  font-size: 14px;
 }
 
 .navbar .box-navbar .menu .active a {
@@ -137,7 +136,7 @@ header {
   .navbar .box-navbar .menu {
     position: absolute;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     height: 270px;
     row-gap: 20px;
     align-items: start;
@@ -148,6 +147,7 @@ header {
     transition: all 0.3s ease;
     background-color: green;
     margin-top: 1rem;
+    overflow: hidden;
   }
 
   .navbar .box-navbar .menu.menu-active {
@@ -778,7 +778,6 @@ header {
   font-weight: 700;
   color: green;
   cursor: default;
-  border: 1px solid rgb(2, 190, 2);
   padding: 7px;
   border-radius: 10px;
 }
