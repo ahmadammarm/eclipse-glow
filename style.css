@@ -761,12 +761,12 @@ header {
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 .about-popup-content {
-  background-color: #fefefe;
+  background-color: #ccc;
   margin: 15% auto;
   padding: 20px;
   border: 1px solid #888;
@@ -778,10 +778,9 @@ header {
   margin: 0 20px 5px 5px;
   font-weight: 700;
   color: green;
-  padding-bottom: 1rem;
   cursor: default;
   border: 1px solid rgb(2, 190, 2);
-  padding: 10px;
+  padding: 7px;
   border-radius: 10px;
 }
 
@@ -1343,11 +1342,11 @@ header {
   }
   .about-popup {
     padding-top: 5rem;
+    position: fixed;
   }
 
   .about-popup-content {
-    width: 90%;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .about-popup-content p {
