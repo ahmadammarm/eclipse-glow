@@ -162,14 +162,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Fungsi untuk menunjukkan atau menyembunyikan dropdown
 function showPopup() {
-  var popup = document.getElementById("about-popup");
-  popup.style.display = "flex";
-}
-
-function closePopup() {
-  var popup = document.getElementById("about-popup");
-  popup.style.display = "none";
+  var dropdown = document.getElementById("dropdown");
+  if (dropdown.style.display === "none" || dropdown.style.display === "") {
+    dropdown.style.display = "block";
+  } else {
+    dropdown.style.display = "none";
+  }
 }
 
 
