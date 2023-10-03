@@ -775,13 +775,20 @@ header {
 
 .about-popup-content p {
   display: inline-block;
-  margin: 0 20px 10px 10px;
+  margin: 0 20px 5px 5px;
   font-weight: 700;
   color: green;
   padding-bottom: 1rem;
   cursor: default;
   border: 1px solid rgb(2, 190, 2);
   padding: 10px;
+  border-radius: 10px;
+}
+
+.about-popup-content p:hover {
+  background-color: green;
+  color: #fff;
+  transition: all .3s ease;
 }
 
 .about-close {
@@ -1334,10 +1341,19 @@ header {
   .contact .row form .input-group a {
     font-size: 20px;
   }
-  .about-button {
-    display: none;
+  .about-popup {
+    padding-top: 5rem;
   }
-  
+
+  .about-popup-content {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .about-popup-content p {
+    margin-top: 1.5rem;
+  }
+
   .menu .row .menu-card,
   .menu .row .tutor-card {
     flex: 0 0 100%;

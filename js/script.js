@@ -1,6 +1,8 @@
 const menuBar = document.querySelector(".menu-bar");
 const menuNav = document.querySelector(".menu");
 const navBar = document.querySelector(".navbar");
+const menuItems = document.querySelectorAll(".menu li a");
+
 
 let isMenuActive = false; // Track whether menu is active or not
 
@@ -41,6 +43,14 @@ menuBar.addEventListener("click", () => {
     menuNav.style.pointerEvents = "none"; // Menonaktifkan pointer events
     isMenuActive = false;
   }
+});
+
+menuItems.forEach((menuItem) => {
+  menuItem.addEventListener("click", () => {
+    menuNav.classList.remove("menu-active");
+    menuNav.style.pointerEvents = "none"; // Menonaktifkan pointer events
+    isMenuActive = false;
+  });
 });
 
 window.addEventListener("scroll", () => {
