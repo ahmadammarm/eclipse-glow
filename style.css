@@ -132,33 +132,32 @@ header {
   .menu-bar {
     display: inline-block;
   }
-  
+
   .navbar .box-navbar .menu {
     position: absolute;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     height: 270px;
     row-gap: 20px;
     align-items: start;
     top: 70px;
-    right: 0; /* Menggeser elemen menu ke paling kanan */
+    right: 0;
     opacity: 0;
     transform: translateX(50%);
     transition: all 0.3s ease;
     background-color: green;
     margin-top: 1rem;
-    margin-right: 3rem;
   }
-  
+
   .navbar .box-navbar .menu.menu-active {
     top: 80px;
     opacity: 1;
   }
-  
+
   .hero .box-hero .box:nth-child(1) p {
     font-size: 13px;
   }
-}  
+}
 
 .loader {
   display: flex;

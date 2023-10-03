@@ -39,14 +39,14 @@ menuBar.addEventListener("click", () => {
     menuNav.style.pointerEvents = "auto"; // Mengaktifkan pointer events
     isMenuActive = true;
   } else {
-    menuNav.classList.remove("menu-active");
+    menuNav.classList.remove("menu-active"); // Menonaktifkan pointer events
     isMenuActive = false;
   }
 });
 
 menuItems.forEach((menuItem) => {
   menuItem.addEventListener("click", () => {
-    menuNav.classList.remove("menu-active");
+    menuNav.classList.remove("menu-active"); // Menonaktifkan pointer events
     isMenuActive = false;
   });
 });
@@ -61,8 +61,7 @@ document.addEventListener("click", (event) => {
   const targetElement = event.target;
 
   if (!navBar.contains(targetElement) && !menuBar.contains(targetElement)) {
-    menuNav.classList.remove("menu-active");
-    // menuNav.style.pointerEvents = "none"; // Menonaktifkan pointer events
+    menuNav.classList.remove("menu-active"); // Menonaktifkan pointer events
     isMenuActive = false;
   }
 });
