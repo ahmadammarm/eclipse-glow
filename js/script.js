@@ -40,7 +40,6 @@ menuBar.addEventListener("click", () => {
     isMenuActive = true;
   } else {
     menuNav.classList.remove("menu-active");
-    menuNav.style.pointerEvents = "none"; // Menonaktifkan pointer events
     isMenuActive = false;
   }
 });
@@ -48,7 +47,6 @@ menuBar.addEventListener("click", () => {
 menuItems.forEach((menuItem) => {
   menuItem.addEventListener("click", () => {
     menuNav.classList.remove("menu-active");
-    menuNav.style.pointerEvents = "none"; // Menonaktifkan pointer events
     isMenuActive = false;
   });
 });
@@ -64,7 +62,7 @@ document.addEventListener("click", (event) => {
 
   if (!navBar.contains(targetElement) && !menuBar.contains(targetElement)) {
     menuNav.classList.remove("menu-active");
-    menuNav.style.pointerEvents = "none"; // Menonaktifkan pointer events
+    // menuNav.style.pointerEvents = "none"; // Menonaktifkan pointer events
     isMenuActive = false;
   }
 });
