@@ -1349,6 +1349,10 @@ header {
     font-size: 13px;
   }
 
+  .about-popup-content p {
+    margin-top: 1.5rem;
+  }
+
   .menu .row .menu-card,
   .menu .row .tutor-card {
     flex: 0 0 100%;
