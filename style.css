@@ -109,6 +109,7 @@ header {
   text-decoration: none;
   color: #fff;
   padding: 10px 15px 10px 15px;
+  font-size: 14px;
 }
 
 .navbar .box-navbar .menu .active a {
